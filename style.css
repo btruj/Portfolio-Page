@@ -1,0 +1,248 @@
+
+
+    *{
+          box-sizing:border-box;
+        }
+        p,body,html,a,ul,li,h1,h2,h3,h4,h5,h6{
+            margin:0;
+            padding:0;
+        }
+        .fa-brands{
+            font-size:60px;
+
+        }
+        .fa-brands:hover{
+             box-shadow:0 0 5px 2px rgba(249,150,67,0.8);
+        }
+
+        #navbar{
+            display: Webflow;
+            justify-content:space-between;
+            height:25px;
+            position:absolute;
+            background-color:rgba(249,150,67,255);
+            left:0;
+            right:0;
+            top:0;
+            text-align:center;
+            margin-top:0;
+            margin-bottom:0;
+
+        }
+
+
+        #navbar ul li{
+            display:inline-block;
+            margin-left:20px;
+            margin-right:20px;
+
+
+        }
+        #navbar ul li a{
+            text-decoration:none;
+            font-size:20px;
+            color:black;
+            display:inline-block;
+        }
+         #navbar ul li a:hover{
+            border-bottom:solid 1px rgba(85,26,139);
+        }
+        #welcome-section{
+            height:100vh;
+            display:flex;
+            align-items:center;
+            margin:10px 40px;
+        }
+        .welcome_container{
+            margin:0 auto;
+            width:45%;
+            padding-left:120px;
+            padding-top:70px;
+        }
+        .welcome_container p{
+             font-size:25px;
+        }
+        .welcome_container h1{
+            font-size:40px;
+        }
+        .profile{
+            font-size:18px;
+            font-style:italic;
+        }
+        .view_my_work_button{
+             margin-top:20px;
+           padding:15px 15px;
+           border-radius:5%;
+           cursor:pointer;
+           background-color:rgba(249,150,67,0.8);
+           border:solid 1px gray;
+           transition: box-shadow 0.15s;
+           font-size:15px;
+           border:none;
+        }
+        .view_my_work_font:hover{
+            font-weight:bold;
+        }
+        .view_my_work_button:hover{
+            background-color:rgba(249,150,67,1);
+            box-shadow:0px 0px 2px 2px rgba(249,150,67,0.8);
+
+        }
+        #projects{
+            padding:60px 110px;
+            width:100%;
+            background-color:rgba(123,134,215,0.3);
+        }
+        .project_main_header{
+            text-align:center;
+            margin-bottom:30px;
+            letter-spacing: 2px;
+            font-size:45px;
+            padding-top:20px;
+            padding-bottom:40px;
+            font-family:'Bebas Neue';
+
+        }
+        .project_container{
+            display:flex;
+            column-gap:60px;
+            row-gap:55px;
+            flex-wrap:wrap;
+        }
+        .project_details{
+            width:390px;
+            height:450px;
+            border:none;
+            border-radius:2px;
+            text-decoration:none;
+             box-shadow:0 0 8px rgba(95,105,194,0.8);
+            transition:border 0.15s;
+        }
+        .project_details:hover{
+            border:solid 3px rgba(88,67,77,255);
+            overflow:hidden;
+
+        }
+        #projects img{
+            width:100%;
+            height:83%;
+            margin:auto;
+        }
+
+        .project_sub_details{
+            background-color:rgba(95,105,194,255);
+            color:white;
+            font-weight:bold;
+            height:17%;
+        }
+        .project_sub_details h3{
+            text-align:center;
+            font-size:1.4em;
+            letter-spacing:1px;
+            padding-top:15px;
+        }
+        .project_sub_details p{
+            text-align:center;
+            padding-top:8px;
+            color:rgba(249,249,249,0.6);
+            font-family: 'Montserrat', sans-serif;
+            font-size:0.9em;
+        }
+        #contact{
+            padding-top:8px;
+            margin-top:50px;
+            margin-bottom:80px;
+        }
+        .social_media_container{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            margin:10px 110px;
+        }
+        .social_media_container a{
+            padding-left:10px;
+            padding-right:10px;
+            color:rgba(42,69,138,255);
+        }
+        .contact_header{
+            display:block;
+            text-align:center;
+            font-size:40px;
+            letter-spacing:1px;
+            padding-bottom:20px;
+            font-family: 'Bebas Neue';
+        }
+        .footer_css{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            margin:8px 35px;
+        }
+        @media (max-width:1400px){
+            #welcome-section{
+                margin:0;
+            }
+            .welcome_container{
+                padding:30px;
+            }
+        }
+        @media (max-width:1050px){
+            #navbar div{
+                display:none;
+            }
+             #navbar{
+                 justify-content:center;
+             }
+           #navbar ul li{
+              margin-left:40px;
+              margin-right:40px;
+          }
+             #welcome-section{
+              display:flex;
+              flex-direction:column-reverse;
+              margin:0 0;
+
+             }
+             .welcome_container{
+              margin:10px 30px;
+              width:100%;
+              padding-left:0;
+              text-align:center;
+              padding-top:0;
+            }
+            .welcome_image{
+              height:60%;
+              width:80%;
+              margin:0;
+              padding:0;
+           }
+           .welcome_container p{
+              font-size:18px;
+              margin-top:3px;
+            }
+            .welcome_container h1{
+                font-size:20px;
+                margin-top:3px;
+             }
+             .profile{
+                font-size:14px;
+                font-style:italic;
+                margin-top:3px;
+             }
+             .view_my_work_button{
+               margin-top:18px;
+               padding:12px 12px;
+               border-radius:5%;
+               cursor:pointer;
+               background-color:rgba(249,150,67,0.8);
+               transition: box-shadow 0.15s;
+               font-size:15px;
+            }
+             #projects img{
+                     height:78%;
+             }
+             .project_sub_details{
+                   height:22%;
+             }
+           
+        }
