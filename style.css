@@ -3,7 +3,7 @@
     *{
           box-sizing:border-box;
         }
-        p,body,html,a,ul,li,h1,h2,h3,h4,h5,h6{
+        p,html,a,ul,li,h1,h2,h3,h4,h5,h6{
             margin:0;
             padding:0;
         }
@@ -11,6 +11,16 @@
             font-size:90px;
 
         }
+
+        body {
+            background-color: white;
+            color: black;
+         }
+
+         .dark-mode {
+            background-color: black;
+            color: white;
+         }
         .fa-brands:hover{
              box-shadow:0 0 5px 2px rgba(249,150,67,0.8);
         }

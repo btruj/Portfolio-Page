@@ -3,6 +3,7 @@
     <head>
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet">
+    <script src="app.js"></script>
     <script src="https://kit.fontawesome.com/aa0058d4fc.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +12,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Portfolio Page</title>
+    <style>
+      body {
+        padding: 25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+      }
 
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+      </style>
     </head>
 
     <body>
@@ -27,6 +40,18 @@
         <main>
             <section id="welcome-section">
                 <div class="welcome_container">
+
+
+
+                  <button onclick="myFunction()">Toggle Dark/Light Mode</button>
+
+                  <script>
+                  function myFunction() {
+                     var element = document.body;
+                     element.classList.toggle("dark-mode");
+                  }
+                  </script>
+                  <br><br><br><br><br><br>
                   <img src="tempsnip.png" >
                     <p>Hello, I am</p>
                     <h1>Bryan Trujillo</h1>
@@ -74,6 +99,7 @@
                      <a href="https://www.freecodecamp.org/BryanTrujillo" target="a_blank"><i class="fa-brands fa-free-code-camp"></i></a>
                 </div>
             </section>
+
 
         </main>
         <hr>
