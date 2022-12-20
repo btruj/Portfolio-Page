@@ -28,7 +28,7 @@
         #navbar{
             display: Webflow;
             justify-content:space-between;
-            height:55px;
+            height:50px;
             position:absolute;
             background-color:rgba(249,150,67,255);
             left:0;
@@ -50,7 +50,7 @@
         }
         #navbar ul li a{
             text-decoration:none;
-            font-size:40px;
+            font-size:15px;
             color:black;
             display:inline-block;
         }
@@ -240,8 +240,8 @@
               padding-top:0;
             }
             .welcome_image{
-              height:30%;
-              width:50%;
+              height:50%;
+              width:70%;
               margin:0;
               padding:0;
            }
