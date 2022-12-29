@@ -5,10 +5,8 @@
             margin:0;
             padding:0;
         }
-        .fa-brands{
-            font-size:90px;
-        }
-        .fa-brands:hover{
+
+        .social_media_container a :hover{
              box-shadow:0 0 5px 2px rgba(249,150,67,0.8);
         }
         body {
