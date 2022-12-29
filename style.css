@@ -58,7 +58,7 @@
         }
         #navbar ul li a{
             text-decoration:none;
-            font-size:14px;
+            font-size:12px;
             color:black;
             display:inline-block;
         }
@@ -90,6 +90,9 @@
         .profile{
             font-size:18px;
             font-style:italic;
+        }
+        .email {
+            font-size:15px;
         }
         .view_my_work_button{
              margin-top:20px;
