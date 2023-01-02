@@ -47,7 +47,6 @@
         left: 0;
         right: 0;
         top: 0;
-
         margin: 0;
 
       }
@@ -55,22 +54,14 @@
       #navbar ul {
         list-style-type: none;
         margin: 0;
-
-
-
-
-      }
+    }
 
       #navbar ul li {
         display: inline-block;
         margin-left: 30px;
         margin-right: 30px;
-
-      }
-
-
-
-        #navbar ul li a{
+    }
+      #navbar ul li a{
             text-decoration:none;
             font-size:18px;
             color:black;
@@ -119,7 +110,7 @@
             font-style:italic;
         }
         .email {
-            font-size:15px;
+            font-size:25px;
             text-align: center;
         }
         .view_my_work_button{
@@ -218,7 +209,7 @@
         #contact{
             padding-top:8px;
             margin-top:50px;
-            margin-bottom:20px;
+            margin-bottom:25px;
         }
         .social_media_container{
             display:flex;
